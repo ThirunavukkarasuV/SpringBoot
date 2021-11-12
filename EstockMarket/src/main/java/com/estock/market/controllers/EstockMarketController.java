@@ -30,6 +30,7 @@ import com.estock.market.repositories.EstockMarketPriceRepository;
 import com.estock.market.repositories.EstockMarketRepository;
 
 @RestController
+
 @RequestMapping("/api/v/1.0/market/stock")
 @CrossOrigin("*")
 public class EstockMarketController {
